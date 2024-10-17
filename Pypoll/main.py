@@ -52,8 +52,6 @@ with open(file_to_output, "w") as txt_file:
 
     # Print the total vote count (to terminal) [This part was printed with the resume at the end of the code]
     
-    
-
     # Write the total vote count to the text file
     txt_file.write(f"Total Votes: {total_votes}\n")
 
@@ -76,17 +74,13 @@ with open(file_to_output, "w") as txt_file:
         results.append((candidate, vote_percentage, votes))
         print(". ")
 
-
-   
     print("                            ")
     print("Election Results")
     print("                            ")
     print("----------------------------")
     print("                            ")
-
     print(f"Total Votes: {total_votes}")
     print("                            ")
-
     print("----------------------------")
     
     print("                            ")
@@ -96,21 +90,15 @@ with open(file_to_output, "w") as txt_file:
 
     print("                            ")
     print("----------------------------")
-
     # Generate and print the winning candidate summary
     print(f"\nWinner: {candidate_win}")
-
     print("                            ")
     print("----------------------------")
     print("                            ")
-
     print(f"Winning Vote Count: {count_win}")
     print(f"Winning Percentage:{percentage_win:.2f}")
-
     print("                            ")
     print("----------------------------")
-
-
 
     # Save the winning candidate summary to the text file
 
@@ -118,6 +106,3 @@ with open(file_to_output, "w") as txt_file:
     txt_file.write(f"\nWinner: {candidate_win}\n")
     txt_file.write(f"Winning Vote Count: {count_win}\n")
     txt_file.write(f"Winning Percentage: {percentage_win:.3f}%\n")
-
-
-

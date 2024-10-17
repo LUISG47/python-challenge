@@ -7,7 +7,7 @@ import os
 
 # Files to load and output (update with correct file paths)
 file_to_load = os.path.join("/Users/luisgalindez/Documents/python-challenge/Pybank/Resources/budget_data.csv")  # Input file path
-file_to_output = os.path.join("/Users/luisgalindez/Documents/python-challenge/Pybank/Resources/analysis/budget_analysis.txt")  # Output file path
+file_to_output = os.path.join("/Users/luisgalindez/Documents/python-challenge/Pybank/analysis/budget_analysis.txt")  # Output file path
 
 # Define variables to track the financial data
 total_months = 0
@@ -87,4 +87,11 @@ print("----------------------------")
 
 # Write the results to a text file
 with open(file_to_output, "w") as txt_file:
-    txt_file.write(output)
+    txt_file.write("----------------------------")
+    txt_file.write(f"Total Months: {total_months}")
+    txt_file.write(f"TTotal: ${total_net}")
+    txt_file.write(f"Average Change: ${average_change:.2f}")
+    txt_file.write(f"Greatest Increase in Profits: {increase[0]} (${increase[1]})")
+    txt_file.write(f"Greatest Increase in Profits: {increase[0]} (${increase[1]})")
+    txt_file.write(f"Greatest Decrease in Profits: {decrease[0]} (${decrease[1]})")
+    
