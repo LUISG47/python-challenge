@@ -50,7 +50,7 @@ with open(file_to_load) as election_data:
 # Open a text file to save the output
 with open(file_to_output, "w") as txt_file:
 
-    # Print the total vote count (to terminal)
+    # Print the total vote count (to terminal) [This part was printed with the resume at the end of the code]
     
     
 
@@ -74,7 +74,6 @@ with open(file_to_output, "w") as txt_file:
         # Print and save each candidate's vote count and percentage
         
         results.append((candidate, vote_percentage, votes))
-        #print (f"{candidate}: {vote_percentage:.3f}% ({votes})"
         print(". ")
 
 
@@ -106,7 +105,7 @@ with open(file_to_output, "w") as txt_file:
     print("                            ")
 
     print(f"Winning Vote Count: {count_win}")
-    print(f"Winning Percentage:{percentage_win}")
+    print(f"Winning Percentage:{percentage_win:.2f}")
 
     print("                            ")
     print("----------------------------")
