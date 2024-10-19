@@ -87,11 +87,14 @@ print("----------------------------")
 
 # Write the results to a text file
 with open(file_to_output, "w") as txt_file:
-    txt_file.write("----------------------------")
-    txt_file.write(f"Total Months: {total_months}")
-    txt_file.write(f"TTotal: ${total_net}")
-    txt_file.write(f"Average Change: ${average_change:.2f}")
-    txt_file.write(f"Greatest Increase in Profits: {increase[0]} (${increase[1]})")
-    txt_file.write(f"Greatest Increase in Profits: {increase[0]} (${increase[1]})")
-    txt_file.write(f"Greatest Decrease in Profits: {decrease[0]} (${decrease[1]})")
+    txt_file.write(f"----------------------------------------------------\n\n")
+    txt_file.write(f"Financial Analysis\n\n")
+    txt_file.write(f"----------------------------------------------------\n\n")
+    txt_file.write(f"Total Months: {total_months} \n\n")
+    txt_file.write(f"Total: ${total_net} \n\n")
+    txt_file.write(f"Average Change: ${average_change:.2f} \n\n")
+    txt_file.write(f"----------------------------------------------------\n\n")
+    txt_file.write(f"Greatest Increase in Profits: {increase[0]} (${increase[1]}) \n\n")
+    txt_file.write(f"Greatest Increase in Profits: {increase[0]} (${increase[1]}) \n\n")
+    txt_file.write(f"Greatest Decrease in Profits: {decrease[0]} (${decrease[1]}) \n\n")
     
