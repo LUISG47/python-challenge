@@ -25,9 +25,9 @@ file_to_output = os.path.join("analysis", "budget_analysis.txt")  # Output file 
 
 You must insert the correct route in order to be able to read the data and to output the txt file on the desired folder 
 
-In this case the input archive must be stored in a folder called "Respurces" and you most point to the correct path in order to read the archive
+In this case the input archive must be stored in a folder called "Resources" and you most point to the correct path in order to read the archive.
 
-The output txt file will be putputted to a folder called "analysis"
+The output txt file will be outputted to a folder called "analysis"
 
 
 
