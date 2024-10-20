@@ -47,7 +47,7 @@ The greatest increase in profits (date and amount) over the entire period
 
 The greatest decrease in profits (date and amount) over the entire period
 
-Your analysis will display the following result on the terminal:
+Your analysis will display the following results on the terminal:
 
 
 ![Screenshot 2024-10-20 at 11 03 02 a m](https://github.com/user-attachments/assets/249df275-2a90-4fdc-a7f6-442b869f8846)
@@ -72,7 +72,7 @@ The total number of votes each candidate won
 
 The winner of the election based on popular vote
 
-Your analysis will display the following result on the terminal:
+Your analysis will display the following results on the terminal:
 
 
 ![Screenshot 2024-10-20 at 11 03 11 a m](https://github.com/user-attachments/assets/8c9a042c-acef-4ada-b17d-00a0cd407365)
