@@ -31,7 +31,7 @@ The output txt file will be putputted to a folder called "analysis"
 
 
 
-## Pypoll Challengue Instructions
+# Pybank Challengue Instructions
 
 In this Challenge, you are tasked with creating a Python script to analyze the financial records of your company. You will be given a financial dataset called budget_data.csv. The dataset is composed of two columns: "Date" and "Profit/Losses".
 
@@ -56,7 +56,7 @@ The code will also generate a .txt file with the same results on the analysis fo
 
 
 
-## Pypoll Challengue Instructions
+# Pypoll Challengue Instructions
 
 In this Challenge, you are tasked with helping a small, rural town modernize its vote-counting process.
 
