@@ -72,8 +72,6 @@ The total number of votes each candidate won
 
 The winner of the election based on popular vote
 
-Your analysis should align with the following results:
-
 Your analysis will display the following result on the terminal:
 
 
